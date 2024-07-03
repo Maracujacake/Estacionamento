@@ -4,7 +4,7 @@
 #### Gera relatório do tempo em que estiveram registrados para cobrança.
 ![estacionamento1](https://github.com/Maracujacake/Estacionamento/assets/74564883/4a7c5252-76fe-4cbe-afc2-e4a58b507354)
 
-Tecnologias usadas: ```Java (Servlet e JSP), JavaBeans, MySQL, JDBC, Modelo MVC, Tomcat.```
+Tecnologias usadas: ```Java (Servlet e JSP), JavaBeans, MySQL, JDBC, Modelo MVC, Tomcat e hospedagem na AWS utilizando instância EC2.```
 
 Para utilizar o serviço, basta baixar este repositório para sua máquina e abrir a pasta ```Estacionamento``` aqui contida com uma IDE especializada e
 inicializar o servidor tomcat - ( Foi utilizada no desenvolvimento a versão 9.0.88).
