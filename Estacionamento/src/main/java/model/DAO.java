@@ -5,16 +5,15 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.time.LocalDateTime;
-import java.util.ArrayList;
 import java.sql.Timestamp;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 
 public class DAO {
 	private String driver = "com.mysql.cj.jdbc.Driver";
 	private String url = "jdbc:mysql://localhost:3306/Estacionamento?useTimezone=true&serverTimezone=UTC";
-	private String user = "chris";
-	private String password = "1234";
+	private String user = "root";
+	private String password = "root";
 	
 	private Connection conectar() {
 		Connection c = null;
